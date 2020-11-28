@@ -1,0 +1,18 @@
+version: '3.7'
+
+services:
+    samba_server:
+        build: ./
+        image: samba_server:ubuntu_20.04
+        container_name: samba_server
+        restart: always
+        ports: 
+            - 138:138/udp
+            - 139:139
+            - 445:445
+            - 445:445/udp
+        environment:
+            userFile: /users.ini
+        volumes: 
+            - ./data:/data
+            - ./users.ini:/users.ini

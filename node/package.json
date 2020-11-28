@@ -1,0 +1,14 @@
+{
+  "name": "samba-docker",
+  "version": "1.0.0",
+  "description": "NoDescription",
+  "main": "main.js",
+  "scripts": {
+    "start": "node /node/get_ready/main.js"
+  },
+  "author": "Tim Derksen",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "read-ini-file": "^3.0.0"
+  }
+}
