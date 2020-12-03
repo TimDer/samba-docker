@@ -12,7 +12,7 @@ services:
             - 445:445
             - 445:445/udp
         environment:
-            userFile: /users.ini
+            sharesFile: /shares.ini
         volumes: 
             - ./data:/data
-            - ./users.ini:/users.ini
+            - ./shares.ini:/shares.ini

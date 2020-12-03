@@ -10,7 +10,7 @@ EXPOSE 445
 EXPOSE 445/udp
 
 # set users ini file var
-ENV userFile=/users.ini
+ENV sharesFile=/shares.ini
 
 # ============================== Install the required software ==============================
 

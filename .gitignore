@@ -1,5 +1,11 @@
-data
-node_modules
-users.ini
-docker-compose.yml
-smb.conf
+# ignore everything
+*
+
+# except
+!node
+!.gitignore
+!docker-compose.sample.yml
+!dockerfile
+!get_ready.sh
+!shares.sample.ini
+!smb.sample.conf
