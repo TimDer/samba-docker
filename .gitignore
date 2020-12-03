@@ -9,3 +9,7 @@
 !get_ready.sh
 !shares.sample.ini
 !smb.sample.conf
+!sample_files
+!main.js
+!package-lock.json
+!package.json
